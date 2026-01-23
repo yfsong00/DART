@@ -1,6 +1,6 @@
-# DDFI: Diverse and Distribution-aware Missing Feature Imputation via Two-step Reconstruction
+# Mitigating Structural Overfitting: A Distribution-Aware Rectification Framework for Missing Feature Imputation
 
-Implementation for paper: DDFI: Diverse and Distribution-aware Missing Feature Imputation via Two-step Reconstruction.
+Implementation for paper: Mitigating Structural Overfitting: A Distribution-Aware Rectification Framework for Missing Feature Imputation.
 
 ## Dependencies
 ```bash
