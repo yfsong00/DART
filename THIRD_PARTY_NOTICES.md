@@ -1,6 +1,15 @@
+# Third-Party Notices
+
+This repository includes code adapted from prior open-source graph masked autoencoder implementations released by THUDM under the MIT License.
+
+The original license notice is reproduced below.
+
+## THUDM MIT License Notice
+
+```text
 MIT License
 
-Copyright (c) 2026 Yifan Song, Fenglin Yu, Yihong Luo, Xingjian Tao, Siya Qiu, Kai Han, and Jing Tang
+Copyright (c) 2022 THUDM
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +28,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+```

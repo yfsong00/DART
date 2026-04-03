@@ -47,7 +47,7 @@ def get_mask(idx, num_nodes):
 
 
 def get_symmetrically_normalized_adjacency(edge_index, n_nodes):
-    """
+    r"""
     Given an edge_index, return the same edge_index and edge weights computed as
     \mathbf{\hat{D}}^{-1/2} \mathbf{\hat{A}} \mathbf{\hat{D}}^{-1/2}.
     """

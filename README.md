@@ -187,6 +187,10 @@ If you find this repository useful, please cite:
 }
 ```
 
+## Acknowledgements
+
+Parts of the graph masked autoencoder implementation are adapted from prior THUDM open-source code released under the MIT License. See [THIRD_PARTY_NOTICES.md](./THIRD_PARTY_NOTICES.md) for attribution details.
+
 ## Contact
 
 For questions or collaborations, please open an issue or contact the authors listed in [the paper](./DART.pdf).
