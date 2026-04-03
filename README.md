@@ -20,6 +20,14 @@ The repository currently includes the paper PDF and the full training / evaluati
 - Inductive node classification
 - Link prediction
 
+<p align="center">
+  <a href="./image.pdf">
+    <img src="./assets/dart_teaser.png" alt="DART overview figure" width="100%">
+  </a>
+</p>
+
+The overview figure above links to the original vector version in [image.pdf](./image.pdf).
+
 ## News
 
 - `2026-04-03`: DART was accepted by SIGIR 2026.
