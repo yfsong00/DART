@@ -4,7 +4,7 @@
 
 [![Conference](https://img.shields.io/badge/SIGIR-2026-red)](./DART.pdf)
 [![Paper](https://img.shields.io/badge/Paper-PDF-blue)](./DART.pdf)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](./DART/LICENSE)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 
 Official implementation of **DART**, accepted by **SIGIR 2026**.
 
@@ -21,12 +21,12 @@ The repository currently includes the paper PDF and the full training / evaluati
 - Link prediction
 
 <p align="center">
-  <a href="./image.pdf">
+  <a href="./assets/dart_overview.pdf">
     <img src="./assets/dart_teaser.png" alt="DART overview figure" width="100%">
   </a>
 </p>
 
-The overview figure above links to the original vector version in [image.pdf](./image.pdf).
+The overview figure above links to the original vector version in [assets/dart_overview.pdf](./assets/dart_overview.pdf).
 
 ## News
 
@@ -57,9 +57,13 @@ Selected results from the paper are listed below. Full tables are available in [
 
 ```text
 .
+├── assets
+│   ├── dart_overview.pdf
+│   └── dart_teaser.png
 ├── DART.pdf
+├── LICENSE
 ├── README.md
-└── DART
+└── src
     ├── configs
     │   ├── configs_transductive.yml
     │   ├── configs_inductive.yml
@@ -72,7 +76,7 @@ Selected results from the paper are listed below. Full tables are available in [
     └── link_prediction.py
 ```
 
-The actual training code lives in [`DART/`](./DART).
+The actual training code lives in [`src/`](./src).
 
 ## Environment
 
@@ -117,7 +121,7 @@ The following datasets are loaded directly from DGL / OGB:
 For `flickr`, `reddit`, and `sailing`, please prepare the data under:
 
 ```text
-DART/dataset/<dataset_name>/
+src/dataset/<dataset_name>/
 ├── adj_full.npz
 ├── feats.npy
 ├── class_map.json
@@ -135,7 +139,7 @@ Notes:
 All commands below assume you are at the repository root:
 
 ```bash
-cd DART
+cd src
 ```
 
 ### Transductive node classification

@@ -1,4 +1,4 @@
-# DART Code Directory
+# DART Source Directory
 
 This directory contains the actual implementation used in the paper.
 
