@@ -1,10 +1,14 @@
-dataset=$1
-device=$2
+#!/usr/bin/env bash
+set -euo pipefail
 
-[ -z "${dataset}" ] && dataset="cora"
-[ -z "${device}" ] && device=-1
+dataset="${1:-cora}"
+device="${2:--1}"
 
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PROJECT_DIR="$(cd "${SCRIPT_DIR}/.." && pwd)"
 
-python -m pdb node_classification_transductive.py \
-	--device $device \
-	--dataset $dataset 
+cd "${PROJECT_DIR}"
+
+python node_classification_transductive.py \
+  --device "${device}" \
+  --dataset "${dataset}"
